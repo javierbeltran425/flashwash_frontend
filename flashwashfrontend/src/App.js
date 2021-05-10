@@ -14,7 +14,6 @@ function App() {
           <Route exact path="/" component={Home}/>
         </Switch>
       </Router>
-      <ReactQueryDevtools initialIsOpen={false}/>
     </>
   );
 }
