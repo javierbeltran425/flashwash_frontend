@@ -3,7 +3,7 @@ import img from '../Resources/CarWash1.jpeg'
 const GenCard = () => {
     return(
         <>
-            <div className="flex flex-col flex-nowrap w-1/2 h-full bg-white shadow-lg opacity-75 items-center rounded-t-full rounded-b-full">
+            <div className="flex flex-col flex-nowrap w-1/2 h-full ml-16 bg-white shadow-lg opacity-75 items-center rounded-t-full rounded-b-full">
                 <img src={img} className="h-24 w-auto m-5 rounded-full shadow-lg"/>
                 <h1 className="text-3xl text-purple-900">PACK #1</h1>
                 <div className="w-full h-1/3">
@@ -16,5 +16,5 @@ const GenCard = () => {
         </>
     )
 }
- 
+
 export default GenCard

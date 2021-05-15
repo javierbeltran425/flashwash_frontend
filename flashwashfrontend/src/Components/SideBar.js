@@ -1,43 +1,13 @@
 const SideBar = () => {
     return (
       <>
-        <nav className="relative flex flex-shrink flew-wrap items-center justify-start px-2 py-3 bg-blue-300 mb-1 transform -rotate-90">
-          <div className="w-auto relative flex justify-between lg:block lg:justify-start">
-            <ul className="flex flex-col lg:flex-row list-none lg:ml-auto ">
-              <li className="nav-contact">
-                <a
-                  className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-black hover:opacity-75"
-                  href="#pablo"
-                >
-                  <span className="ml-2">Contacto</span>
-                </a>
-              </li>
-              <li className="nav-service">
-                <a
-                  className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-black hover:opacity-75"
-                  href="#pablo"
-                >
-                  <span className="ml-2">Servicios</span>
-                </a>
-              </li>
-              <li className="nav-productos">
-                <a
-                  className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-black hover:opacity-75"
-                  href="#pablo"
-                >
-                  <span className="ml-2">Productos</span>
-                </a>
-              </li>
-              <li className="nav-about_us">
-                <a
-                  className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-black hover:opacity-75"
-                  href="#pablo"
-                >
-                  <span className="ml-2">Acerca de nosotros</span>
-                </a>
-              </li>
+        <nav className="absolute left-0 w-1/5 h-screen  flex justify-center px-2 py-3 bg-blue-300 mb-1 z-10">
+            <ul className="flex flex-wrap items-center my-10 mx-1">
+              <li className="transform -rotate-90"><a href="#Pablo">Acerca de nosotros</a></li>
+              <li className="transform -rotate-90"><a href="#Pablo">Servicios</a></li>
+              <li className="transform -rotate-90"><a href="#Pablo">Productos</a></li>
+              <li className="transform -rotate-90"><a href="#Pablo">Contacto</a></li>
             </ul>
-          </div>
         </nav>
       </>
     );
