@@ -1,7 +1,7 @@
 const FactCard = () => {
     return (
       <>
-          <div className="w-1/2 h-3/4 m-2 bg-white border-2 rounded-xl border-gray-300 p-3 shadow-lg">
+          <div className="w-1/2 h-3/4 m-2 bg-white border-2 rounded-xl border-gray-300 p-3 shadow-lg lg:w-2/3 lg:h-4/5">
             <div id="header" class="flex items-center mb-2">
               <h4 className="font-bold text-blue-600">Sabias que..?</h4>
             </div>
