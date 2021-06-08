@@ -6,8 +6,14 @@ import SideBar from '../Components/SideBar'
 import banner from '../Resources/CarWash4.jpeg'
 import FactCard from '../Components/FactCard'
 
+import { useHistory } from 'react-router-dom'
+import { useState } from 'react'
+
 
 const Home = () => {
+    const [ aboutShow, setAboutShow ] = useState({ show: false })
+    const [ factShow, setFactShow ] = useState({ show: false })
+
     return(
         <>
             <div className="flex w-full h-screen overflow-hidden justify-center items-center bg-gray-800">
