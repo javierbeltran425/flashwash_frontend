@@ -27,11 +27,10 @@ const Footer = () => {
             </div>
             
             <div className="absolute ml-20 lg:bottom-0 right-0 lg:w-2/3 lg:h-30 flex items-center h-1/4 w-72 bottom-0 overflow-x-auto" >
-                <FactCard />
-                <FactCard />
-                <FactCard />
-                <FactCard />
-                <FactCard />
+                <FactCard title={"Pack #1 - $15.00"} text={"Lavado con hidro lavadora y jabón eco amigable, siliconado, aspirado y pasteado para autos compactos y grandes"}/>
+                <FactCard title={"Pack #2 - $20.00"} text={"Lavado con hidro lavadora y jabón eco amigable, siliconado, aspirado y limpieza de rines para autos grandes y compactos"}/>
+                <FactCard title={"Pack #3 - $23.99"} text={"Lavado con hidro lavadora y jabón eco amigable, lavado de motor a vapor, siliconado y aspirado para auto grande y compacto"}/>
+                <FactCard title={"Pack #4 - $15.00"} text={"Pulido de silvines para restauración y mantenimiento preventivo y pasteado a máquina para abrillantamiento"}/>
             </div>
      
         </>

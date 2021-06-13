@@ -41,7 +41,7 @@ const SideBar = () => {
       <>
         <nav className="absolute lg:w-24 lg:bg-opacity-0 lg:h-4/6 lg:mb-5 left-0 w-1/5 h-screen  flex justify-center px-2 py-3 bg-blue-300 mb-1 z-10">
             <ul className="flex flex-wrap items-center my-10 mx-1">
-              <li className="lg:text-white cursor-pointer absolute mb-96"><Icon icon={faHome} onClick={onClickHome} className="ml-5 mb-48 text-3xl text-purple-800 hover:text-purple-500 lg:mb-20"></Icon></li>
+              <li className="lg:text-white cursor-pointer absolute mb-96"><Icon icon={faHome} onClick={onClickHome} className="ml-5 mb-80 text-3xl text-purple-800 hover:text-purple-500 lg:mb-20"></Icon></li>
               <li className="transform -rotate-90 lg:text-white cursor-pointer"><a onClick={onClickAbout}>Acerca de nosotros</a></li>
               <li className="transform -rotate-90 lg:text-white hidden lg:inline cursor-pointer"><a onClick={onClickServices}>Servicios</a></li>
               <li className="transform -rotate-90 lg:text-white cursor-pointer"><a onClick={onClickProducts}>Productos</a></li>

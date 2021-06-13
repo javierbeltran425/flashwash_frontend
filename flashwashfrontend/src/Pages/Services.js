@@ -4,6 +4,13 @@ import Card from "../Components/Card";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
+import CarWash1 from '../Resources/CarWash1.jpeg'
+import CarWash8 from '../Resources/CarWash8.jpeg'
+import CarWash6 from '../Resources/CarWash6.jpeg'
+import CarWash5 from '../Resources/CarWash5.jpeg'
+import CarWash9 from '../Resources/CarWash9.jpeg'
+import CarWash10 from '../Resources/CarWash10.jpeg'
+
 import { useState } from "react";
 import styled from "styled-components";
 
@@ -38,13 +45,12 @@ const Services = () => {
       <div className="hidden lg:inline absolute w-full h-full">
         <div className="absolute flex justify-center items-center w-full h-full">
           <Carousel className="w-9/12" responsive={responsive}>
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
+            <Card title="Lavado de auto compacto" img={CarWash1} desc="Lavado de carrocería exterior de vehículo compacto con hidro lavadora y jabón eco amigable. No incluye: Lavado de interior, pasteado, siliconado ni aspirado interior." price="$8.00"/>
+            <Card title="Lavado de auto grande" img={CarWash8} desc="Lavado de carrocería exterior de vehículo compacto con hidro lavadora y jabón eco amigable. No incluye: Lavado de interior, pasteado, siliconado ni aspirado interior." price="$10.00"/>
+            <Card title="Lavado de motos" img={CarWash6} desc="Lavado de carrocería exterior de motocicletas con hidro lavadora y jabón eco amigable. No incluye: Pasteado, siliconado ni pulida de silvines" price="$6.00"/>
+            <Card title="Lavado de coaster y microbus" img={CarWash5} desc="Lavado de carrocería exterior de coaster y microbús con hidro lavadora y jabón eco amigable. No incluye: Lavado de interior, pasteado, siliconado ni aspirado interior." price="$15.00"/>
+            <Card title="Lavado de tapicería auto compacto" img={CarWash9} desc="Lavado de tapicería completa en auto compacto. Incluye: Puertas, techo, alfombras, asientos y tablero." price="$23.99"/>
+            <Card title="Lavado de tapicería auto grande" img={CarWash10} desc="Lavado de tapicería completa en auto grande. Incluye: Puertas, techo, alfombras, asientos y tablero." price="$39.99"/>
           </Carousel>
         </div>
       </div>

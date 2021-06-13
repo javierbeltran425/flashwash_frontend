@@ -9,6 +9,11 @@ import "react-multi-carousel/lib/styles.css";
 import { useState } from "react";
 import styled from "styled-components";
 
+import Abrillantador from '../Resources/Abrillantador_llantas.jpeg'
+import Cera from '../Resources/Cera_rapida.jpeg'
+import Shampoo from '../Resources/Shampoo_eco_liq.jpeg'
+import Limpiador from '../Resources/Limp_Multi_prop.jpeg'
+
 const responsive = {
   desktop: {
     breakpoint: { max: 3000, min: 1024 },
@@ -39,20 +44,20 @@ const Products = () => {
 
         <div className="lg:hidden flex ml-20 justify-center items-center w-full h-full mb-20 md:hidden lg:hidden">
           <Carousel className="w-9/12" responsive={responsive}>
-          <GenCard />
-          <GenCard />
-          <GenCard />
-          <GenCard />
+          <GenCard title="Shampoo ecológico" img={Shampoo} desc="" price=""/>
+          <GenCard title="Cera rápida ecotouch" img={Cera} desc="" price=""/>
+          <GenCard title="Limpiador multiproposito green" img={Limpiador} desc="" price=""/>
+          <GenCard title="Abrillantador de llantas green earth" img={Abrillantador} desc="" price=""/>
           </Carousel>
         </div>
         
         <div className="hidden lg:inline absolute w-full h-full">
         <div className="absolute flex justify-center items-center w-full h-full">
           <Carousel className="w-9/12" responsive={responsive}>
-            <Card />
-            <Card />
-            <Card />
-            <Card />
+            <Card title="Shampoo ecológico" img={Shampoo} desc="" price=""/>
+            <Card title="Cera rápida ecotouch" img={Cera} desc="" price=""/>
+            <Card title="Limpiador multiproposito green" img={Limpiador} desc="" price=""/>
+            <Card title="Abrillantador de llantas green earth" img={Abrillantador} desc="" price=""/>
 
           </Carousel>
         </div>
