@@ -7,9 +7,6 @@ import Services from './Pages/Services'
 import Products from './Pages/Products'
 import Contact from './Pages/Contact'
 
-import { ReactQueryDevtools } from 'react-query/devtools'
-import { QueryClientProvider, QueryClient } from 'react-query'
-
 function App() {
   return (
     <>
